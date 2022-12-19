@@ -51,4 +51,4 @@ jobs:
     - name: Build
       run: |
         git status
-        ./gradlew publish
+        ./gradlew build
