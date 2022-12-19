@@ -52,7 +52,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/TeamMonumenta/NBTEditor")
+            url = uri("https://maven.pkg.github.com/Combustible/legendary-octo-tribble")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
